@@ -3,8 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+First clone this repository : git clone 
 
-In the project directory, you can run:
+Before `npm start` first install `npm install`
 
 ### `npm start`
 
