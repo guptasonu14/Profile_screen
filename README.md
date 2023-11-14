@@ -3,17 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-First clone this repository : git clone 
+First clone this repository : git clone https://github.com/guptasonu14/Profile_screen.git 
 
-Before `npm start` first install `npm install`
-
-### `npm start`
+Then
+Run the commond `npm install` to install node module.
+Then
+Run the coomand `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 
