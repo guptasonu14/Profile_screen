@@ -8,7 +8,6 @@ const Header = () => {
     <div className="header">
       <div className="header-left">
         <div className="logo-container">
-          {/* Your circle logo goes here */}
           <img src={Logo} alt="Logo" className="logo" />
         </div>
         <div className="separator">|</div>
