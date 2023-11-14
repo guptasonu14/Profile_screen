@@ -1,73 +1,116 @@
-# Getting Started with Create React App
+# Profile-Screen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React app renders a profile screen similar to the provided screenshot. The profile data is hardcoded in a local JSON, eliminating the need for a backend.
 
-## Available Scripts
-First clone this repository : git clone https://github.com/guptasonu14/Profile_screen.git 
+Features
+Profile Screen Rendering:
 
-Then
-Run the commond `npm install` to install node module.
-Then
-Run the coomand `npm start`
+-The app displays a profile screen resembling the provided screenshot.
+-The layout and components aim for consistency across different mobile devices.
+-Local JSON for Profile Data:
 
-Runs the app in the development mode.\
+-Profile information is stored in a local JSON file.
+-No backend server is required for fetching or updating the profile data.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Folder Structure](#folder-structure)
+-[Deployment link]
+
+## Getting Started
+### Prerequisites
+
+Ensure you have Node.js and npm installed on your machine.
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (or [Yarn](https://yarnpkg.com/))
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/guptasonu14/Profile_screen.git
+2. install npm
+   ```bash
+   npm i or npm install
+3.npm start
+  ```bash
+  npm start
+4.Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
+   /src
+    /asstes
+- it stores image.  
+   /components
+    /card
+     -Card.css
+     -Card.jsx
+   /header
+    -Header.css
+    -Header.jsx
+   /profile
+   -Profile.css
+   -Profile.jsx
+  App.css
+  App.js
+  index.css
+  index.js
+  profileData.json
+/public
+  index.html
+
+## Explaination of component
+
+## Header Component
+
+The `Header` component serves as the navigational header for the application. It includes the following features:
+
+- **Logo:** Displays the application logo on the left side of the header.
+- **Separator:** A visual separator represented by the "|" character.
+- **Text:** The "STORIES" text, indicating the primary content or theme of the application.
+- **Course Button:** A button on the right side of the header, allowing users to access the "Course" feature.
+
+## Profile Component
+The Profile component represents a user profile with key information and engagement features. Here's an overview of its functionalities:
+
+Features
+User Image and Details:
+
+Displays the user's image and essential details such as name.
+Shows the user's followers and following counts.
+Profile Data:
+
+Provides additional information about the user, such as their role and associated organization.
+Includes a clickable link to the user's Instagram profile.
+
+## Card Component
+The Card component represents a content card with information about a specific item. Here's an overview of its functionalities:
+
+Features
+Title and Engagement:
+
+Displays the title of the content along with engagement metrics, represented by the "👍" icon.
+Description:
+
+Presents a concise description of the content.
+Metadata:
+
+Provides metadata about the content, including its type, author, publication date, reading time, and views.
+
+## App.js
+it serves as the main entry point for the React application, orchestrating the rendering of various UI elements. Here's an overview of its functionalities:
+
+## profileData.json
+The profileData.json file serves as a local data source for the React application, providing static information about user profiles. Here's an overview of its structure and purpose:
 
 
-### `npm test`
+## Deployment link
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://profile-screen-tau.vercel.app/
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
