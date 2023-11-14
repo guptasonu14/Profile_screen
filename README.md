@@ -38,8 +38,6 @@ Ensure you have Node.js and npm installed on your machine.
    ```bash
    npm i or npm install
 3.npm start
-  ```bash
-  npm start
 4.Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
